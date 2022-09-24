@@ -7,10 +7,10 @@
 
 <script>
 import Header from './components/Header';
-import Todex from './components/Todex';
+import Todos from './components/Todos';
 export default {
   name: 'App',
-  components: { Header, Todex },
+  components: { Header, Todos },
 };
 </script>
 
