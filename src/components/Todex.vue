@@ -1,5 +1,5 @@
 <template>
-  <p></p>
+  <p v-for="todo in todos" :key="todo">{{ todo }}</p>
 </template>
 <script>
 import { ref } from 'vue';
