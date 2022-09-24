@@ -22,7 +22,7 @@ export default {
   name: 'Todos',
   components: { TodoItem, AddTodo },
   setup() {
-    const todos = ref([]);
+    const todos = [];
 
     const getAllTodos = async () => {
       try {
